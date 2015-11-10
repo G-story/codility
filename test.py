@@ -4,6 +4,7 @@ import ex2
 import ex3
 import ex4
 import ex5
+import ex6
 import factory
 
 
@@ -26,4 +27,9 @@ class TestExamples(unittest.TestCase):
     def test_ex5(self):
         A = factory.get(type='fixed').get_list()
         result = ex5.solution(A)
+        print(A, result)
+
+    def test_ex6(self):
+        A = factory.get(type='fixed').get_list()
+        result = ex6.solution(A)
         print(A, result)
