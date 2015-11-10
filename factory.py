@@ -4,7 +4,7 @@ import random
 class FixedListFactory:
     @staticmethod
     def get_list():
-        return [2, 3, 1, 5]
+        return [4, 1, 3]
 
 
 class RandomListFactory:
